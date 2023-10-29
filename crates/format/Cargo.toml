@@ -1,0 +1,10 @@
+[package]
+name = "graphmage-format"
+edition = "2021"
+version.workspace = true
+authors.workspace = true
+readme.workspace = true
+license.workspace = true
+
+[dependencies]
+graphmage-graph = { path = "../graph" }

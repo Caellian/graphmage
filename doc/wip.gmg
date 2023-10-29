@@ -1,0 +1,15 @@
+background: #fff;
+foreground: #000;
+
+node node_01 {
+    background: #f00;
+}
+
+node node_02;
+node node_03;
+
+edge node_01 <-> node_02;
+
+edge node_01 - node_03 {
+    label: "An edge label";
+}

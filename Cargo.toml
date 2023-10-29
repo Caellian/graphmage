@@ -1,0 +1,22 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "./crates/graph",
+    "./crates/render",
+    "./crates/cli",
+    "./crates/viewer",
+]
+
+default-members = [
+    "./crates/graph",
+    "./crates/render",
+    "./crates/cli",
+    "./crates/viewer",
+]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Tin Švagelj"]
+readme = "README.md"
+license = "MIT OR Apache-2.0 OR Zlib"
